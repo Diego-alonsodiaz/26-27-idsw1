@@ -23,16 +23,11 @@ class Sombra {
     silueta
 }
 
-class Iluminacion {
-    distancia
-}
-
 CuerpoOpaco <|-- Persona
 CuerpoOpaco <|-- Objeto
 
 FuenteDeLuz --> CuerpoOpaco : "Ilumina >"
 CuerpoOpaco --> Sombra : "Proyecta >"
 
-(FuenteDeLuz, CuerpoOpaco) .. Iluminacion
 
 @enduml
