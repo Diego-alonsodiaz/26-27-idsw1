@@ -1,0 +1,46 @@
+@startuml
+
+class FuenteDeLuz {
+    angulo
+    posicion
+    intensidad
+}
+
+class CuerpoOpaco {
+    posicion
+}
+
+class Persona {
+    altura
+}
+
+class Objeto {
+    tipo
+}
+
+class Sombra {
+    tamaño
+    posicion
+    silueta
+    nitidez
+}
+
+class Iluminacion {
+    distancia
+}
+
+class Superficie {
+    tipo
+    inclinacion
+}
+
+CuerpoOpaco <|-- Persona
+CuerpoOpaco <|-- Objeto
+
+FuenteDeLuz --> CuerpoOpaco : "Ilumina >"
+CuerpoOpaco --> Sombra : "Proyecta >"
+Sombra --> Superficie : "Se plasma en >"
+
+(FuenteDeLuz, CuerpoOpaco) .. Iluminacion
+
+@enduml
