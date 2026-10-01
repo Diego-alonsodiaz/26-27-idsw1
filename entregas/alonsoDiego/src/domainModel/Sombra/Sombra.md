@@ -1,6 +1,6 @@
 # Modelado del Dominio de la Sombra
 
----
+
 
 ## Iteración 1: Propuesta Base 
 En esta primera propuesta recojo lo fundamental, a medida actualizo la propuesta base.
@@ -17,7 +17,7 @@ En esta primera propuesta recojo lo fundamental, a medida actualizo la propuesta
 * **Uso de Herencia:** Agrupe `Persona` y `Objeto` bajo la clase padre `CuerpoOpaco`, he evitado duplicar las relaciones semánticas de *"Ilumina"* y *"Proyecta"*.
 
 * La clase `iluminacion` nace a partir de la relacion entre una fuente de luz incidiendo en un cuerpo opaco. Por eso la indico como una clase asociación en linea discontinua.
----
+
 
 ## Iteración 1
 Me doy cuenta de que puedo añadir ciertos atributos a cada una de las clases para que quede aun mas claro.
@@ -25,7 +25,7 @@ Me doy cuenta de que puedo añadir ciertos atributos a cada una de las clases pa
 ### Diagrama 2
 ![Diagrama de Vocabulario Ampliado](./Diagrama1.png)
 
-### Glosario Brevísimo
+### Glosario 
 * **Iluminacion:** Clase asociación que representa cuanta luz incide sobre el cuerpo opaco,
 * **Silueta:** Atributo de la sombra que describe la forma de la misma.
 
@@ -35,7 +35,7 @@ Me doy cuenta de que puedo añadir ciertos atributos a cada una de las clases pa
 ### Justificación de Decisiones
 * **Clase Asociación (`Iluminacion`):** Me doy cuenta de que la distancia no tiene sentido que vaya en la clase que resulta de la relacion entre `FuenteDeLuz` y `CuerpoOpaco`, ya que, es el cuerpo opaco el que esta a una distancia o a otra y que esta pueda variar.
 
----
+
 
 ## Iteración 2
 En esta última iteración, busco darle el enfoque mas completo y rebuscado de todo el modelo de dominio.
