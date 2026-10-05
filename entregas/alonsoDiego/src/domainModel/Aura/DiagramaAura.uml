@@ -13,7 +13,7 @@ class Espectador {
 }
 
 BatallaDeAura --> Participante : "Enfrenta a >"
-Participante --> Gesto : "Ejecuta >"
+Participante --> Gesto : "Se marca >"
 Espectador --> BatallaDeAura : "Evalua >"
 
 @enduml

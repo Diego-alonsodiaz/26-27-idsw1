@@ -1,0 +1,21 @@
+@startuml
+object "__juan : Usuario__" as juan {
+    id = "usr-8923"
+    nombre = "Juan Pérez"
+}
+
+object "__auraDeJuan : Aura__" as aura {
+    puntosTotales = 150
+    nivel = "Respetado"
+}
+
+object "__farmeoLunes : AccionDeFarmeo__" as accion {
+    idAccion = "act-001"
+    tipo = "APORTACION_VALOR_CLASE"
+    auraGenerada = 50
+    timestamp = 2026-10-05T10:30:00Z
+}
+
+juan *-- aura : tiene >
+juan ..> accion : se marca >
+@endum

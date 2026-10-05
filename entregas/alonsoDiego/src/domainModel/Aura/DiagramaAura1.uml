@@ -36,7 +36,7 @@ Persona <|-- Espectador
 
 ' Relaciones Semánticas
 BatallaDeAura --> Participante : "Enfrenta a >"
-Participante --> Gesto : "Ejecuta >"
+Participante --> Gesto : "Se marca >"
 Espectador --> BatallaDeAura : "Evalua >"
 BatallaDeAura --> Lugar : "Se realiza en >"
 

@@ -18,4 +18,7 @@
 
 ![Diagrama Definitivo de la Simpatía](domainModel/Simpatía/DiagramaSimpatia1.png)
 
+## Modelo de Dominio 1ª versión de mejora: Farmear Aura
+![Diagrama Objetos](domainModel/Aura/DiagramaAuraObjetos.png)
+
 
