@@ -21,4 +21,17 @@
 ## Modelo de Dominio 1ª versión de mejora: Farmear Aura
 ![Diagrama Objetos](domainModel/Aura/DiagramaAuraObjetos.png)
 
+## Modelo de Dominio 2ª versión de mejora: Farmear Aura
+![Diagrama Objetos](domainModel/Aura/DiagramaAuraObjetos1.png)
 
+## Modelo de Dominio 3ª versión de mejora: Farmear Aura
+![Diagrama Objetos](domainModel/Aura/DiagramaAuraObjetos2.png)
+
+
+![Diagrama Objetos](domainModel/Aura/DiagramaAuraClasesMejorado.png)
+
+## Modelo de Dominio 4ª versión de mejora: Farmear Aura
+![Diagrama Clases](domainModel/Aura/DiagramaAuraClasesFinal.png)
+
+
+![Diagrama Objetos](domainModel/Aura/DiagramaAuraObjetosFinal.png)
